@@ -1,8 +1,8 @@
 # Contributing to cpm
 
-To add your package manager to cpm, do the following:
+To add your package manager to supm, do the following:
 
-1. Make sure your code is formatted like the rest of cpm. If you are using vim
+1. Make sure your code is formatted like the rest of supm. If you are using vim
    (or another editor which respects a vim modeline), there is a modeline to set
    indentation settings for you. If you are not, you should be using the
    following settings:
