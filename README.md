@@ -6,6 +6,8 @@ lazy. It's more like a package manager manager. A fork of CPM (Cactus Package Ma
 
 ```
 $ supm [i|r|l|u|U|s|S|I|F|f|c|h] [pkg]...
+overide package manager
+$ pm=[package manager] supm [i|r|l|u|U|s|S|I|F|f|c|h] [pkg]...
 -> i|install install one or more packages
 -> r|remove  remove one or more packages
 -> l|list    list installed packages
