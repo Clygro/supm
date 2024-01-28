@@ -1,11 +1,11 @@
-# Cactus Package Manager
+# Super Universal Package Manager
 A wrapper for package managers to make them consistent for those of us who are
-lazy. It's more like a package manager manager.
+lazy. It's more like a package manager manager. A fork of CPM (Cactus Package Manager)
 
 ## Usage
 
 ```
-$ cpm [i|r|l|u|U|s|S|I|F|f|c|h] [pkg]...
+$ supm [i|r|l|u|U|s|S|I|F|f|c|h] [pkg]...
 -> i|install install one or more packages
 -> r|remove  remove one or more packages
 -> l|list    list installed packages
@@ -24,8 +24,8 @@ $ cpm [i|r|l|u|U|s|S|I|F|f|c|h] [pkg]...
 ## Installation
 
 ```bash
-git clone https://github.com/willeccles/cpm.git
-cd cpm
+git clone https://github.com/Clygro/supm.git
+cd supm
 sudo make install
 ```
 
@@ -49,14 +49,16 @@ sudo make install
 - xbps (Void)
 - zypper (OpenSUSE)
 
-## Explicitly unsupported package managers
-
+## Additional package managers
 - Cargo
 - Flatpak
 - Nix
 - NPM
-- Pip
 - Snap
+
+## Not currently supported package managers
+
+- Pip
 - Yarn
 
 ## My package manager isn't supported!!1!!11!1
