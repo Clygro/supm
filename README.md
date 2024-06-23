@@ -1,3 +1,4 @@
+# MOVED TO git.gay/clygro/supm
 # Super Universal Package Manager
 A wrapper for package managers to make them consistent for those of us who are
 lazy. It's more like a package manager manager. A fork of CPM (Cactus Package Manager)
